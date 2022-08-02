@@ -71,6 +71,9 @@ export default function calculate(obj, buttonName) {
         total: operate(obj.total, obj.next, obj.operation),
         next: null,
         operation: null,
+        prevTotal: obj.total,
+        prevNext: obj.next,
+        prevOp: obj.operation,
       };
     }
     // '=' with no operation, nothing to do
