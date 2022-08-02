@@ -1,11 +1,29 @@
 import React, { Component } from 'react';
 import Button from './UI/Button';
+import calculate from '../logic/calculate';
 
 export default class Calculator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
+
   render() {
     const btnFn = ['AC', '+/-', '%', '÷', 7, 8, 9, '×', 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '='];
     const isOperator = (btn) => btn === '+' || btn === '-' || btn === '×' || btn === '÷' || btn === '=';
     const isZero = (btn) => btn === 0;
+
+    const buttonChangeHandler = (btn) => {
+      const { total, next, operation } = calculate(this.state, btn);
+      this.setState({ total, next, operation });
+    };
+
+    const [total] = this.state;
+    console.log(total);
 
     return (
       <div className="h-full w-full grid grid-rows-6 sm:h-1/2 sm:w-1/2">
@@ -14,7 +32,7 @@ export default class Calculator extends Component {
         </div>
         <div className="bg-gray-400 grid grid-cols-4 row-span-3 sm:row-span-5 gap-0.125 sm:gap-0.5 ">
           {btnFn.map((btn) => (
-            <Button key={btn} className={`${isOperator(btn) && 'bg-orange-400'} ${isZero(btn) && 'col-span-2'}`}>
+            <Button key={btn} className={`${isOperator(btn) && 'bg-orange-400'} ${isZero(btn) && 'col-span-2'}`} onChange={buttonChangeHandler(btn)}>
               {btn}
             </Button>
           ))}
