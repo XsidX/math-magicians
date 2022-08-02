@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div className="bg-gray-400 h-screen flex justify-center items-center">
-      <Calculator />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="bg-gray-400 h-screen flex justify-center items-center">
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
