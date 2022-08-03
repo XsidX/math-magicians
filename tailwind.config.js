@@ -12,6 +12,9 @@ module.exports = {
       gap: {
         0.125: '0.5px',
       },
+      gridTemplateRows: {
+        12: 'repeat(12, minmax(0, 1fr))',
+      },
     },
   },
   plugins: [],

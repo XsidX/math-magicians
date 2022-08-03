@@ -74,6 +74,7 @@ export default function calculate(obj, buttonName) {
         prevTotal: obj.total,
         prevNext: obj.next,
         prevOp: obj.operation,
+        equalsClicked: true,
       };
     }
     // '=' with no operation, nothing to do
