@@ -1,10 +1,18 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
+import Home from './pages/Home';
+import Calculator from './pages/Calculator';
+import Quote from './pages/Quote';
 
 const App = () => (
-  <div className="bg-gray-400 h-screen flex justify-center items-center">
-    <Calculator />
-  </div>
+  <Layout>
+    <Routes>
+      <Route path="/home" element={<Home />} />
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/quote" element={<Quote />} />
+    </Routes>
+  </Layout>
 );
 
 export default App;

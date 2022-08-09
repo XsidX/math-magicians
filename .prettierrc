@@ -1,5 +1,10 @@
 {
-  "printWidth": 100,
+  "printWidth": 80,
   "endOfLine": "lf",
-  "maxLineLength": 100
+  "maxLineLength": 100,
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false
 }
