@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Header from '../Header';
 
 const Layout = ({ children }) => (
-  <div className="bg-black h-screen relative">
+  <div className="bg-black h-screen relative overflow-y-hidden">
     <Header />
     {children}
   </div>

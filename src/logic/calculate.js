@@ -19,6 +19,7 @@ export default function calculate(obj, buttonName) {
       total: null,
       next: null,
       operation: null,
+      acClicked: true,
     };
   }
 
@@ -101,7 +102,7 @@ export default function calculate(obj, buttonName) {
 
   // User pressed an operation after pressing '='
   if (!obj.next && obj.total && !obj.operation) {
-    return { ...obj, operation: buttonName };
+    return { ...obj, operation: buttonName, newCalc: true };
   }
 
   // User pressed an operation button and there is an existing operation

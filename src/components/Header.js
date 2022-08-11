@@ -4,32 +4,34 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 const Header = () => (
-  <header className="h-14 absolute top-0 left-0 right-0 z-50 flex items-center">
-    <h1 className="hidden">Math Magicians</h1>
+  <header className="h-14 px-3 md:w-3/4 absolute top-0 left-0 right-0 z-50 flex items-center md:gap-5 text-stone-400 text-lg font-medium">
     <nav className="w-full">
-      <ul className="flex items-center justify-around gap-5 text-stone-500">
+      <ul className="flex items-center gap-5 text-stone-500 justify-between md:justify-start">
         <li>
           <NavLink
-            className={(navData) => (navData.isActive ? 'text-orange-500' : '')}
+            className={(navData) => (navData.isActive ? 'text-orange-500 md:pb-1 md:border-b border-orange-400 md:text-stone-400 transition duration-150 ease-in' : '')}
             to="home"
           >
-            <FontAwesomeIcon icon={solid('house')} />
+            <FontAwesomeIcon icon={solid('house')} className="md:hidden" />
+            <h2 className="hidden md:inline">Math Magicians</h2>
           </NavLink>
         </li>
         <li>
           <NavLink
-            className={(navData) => (navData.isActive ? 'text-orange-500' : '')}
+            className={(navData) => (navData.isActive ? 'text-orange-500 md:pb-1 md:border-b border-orange-500 md:text-stone-400 transition duration-150 ease-in' : '')}
             to="/calculator"
           >
-            <FontAwesomeIcon icon={solid('equals')} />
+            <FontAwesomeIcon icon={solid('equals')} className="md:hidden" />
+            <h2 className="hidden md:inline">Standard Calculator</h2>
           </NavLink>
         </li>
         <li>
           <NavLink
-            className={(navData) => (navData.isActive ? 'text-orange-500' : '')}
+            className={(navData) => (navData.isActive ? 'text-orange-500 md:pb-1 md:border-b border-orange-500 md:text-stone-400 transition duration-150 ease-in' : '')}
             to="/quote"
           >
-            <FontAwesomeIcon icon={solid('quote-left')} />
+            <FontAwesomeIcon icon={solid('quote-left')} className="md:hidden" />
+            <h2 className="hidden md:inline">Quote</h2>
           </NavLink>
         </li>
         <li>
@@ -37,16 +39,17 @@ const Header = () => (
             className={(navData) => (navData.isActive ? 'text-orange-500' : '')}
             to="/history"
           >
-            <FontAwesomeIcon icon={solid('clock-rotate-left')} />
+            <FontAwesomeIcon
+              icon={solid('clock-rotate-left')}
+              className="md:hidden"
+            />
           </NavLink>
         </li>
         <li>
-          <NavLink
-            className={(navData) => (navData.isActive ? 'text-orange-500' : '')}
-            to="/about"
-          >
-            <FontAwesomeIcon icon={solid('ellipsis-vertical')} />
-          </NavLink>
+          <FontAwesomeIcon
+            icon={solid('ellipsis-vertical')}
+            className="md:hidden"
+          />
         </li>
       </ul>
     </nav>
