@@ -96,7 +96,7 @@ const Calculator = () => {
   return (
     <div className="h-full w-full">
       <div className="h-full w-full grid grid-rows-12 md:w-3/4">
-        <div className="relative bg-black mx-5 border-b border-neutral-700 md:border-none row-span-6 md:row-span-5">
+        <div className="relative bg-black mx-5 border-b border-neutral-700 md:border-none row-span-5">
           <div className="absolute right-0 bottom-3 md:bottom-1/2 md:pr-3 text-gray-100 text-right flex flex-col gap-3 sm:gap-1 ">
             <MiniHistory
               className="md:hidden"
@@ -130,12 +130,12 @@ const Calculator = () => {
             </span>
           </div>
         </div>
-        <div className="bg-black md:bg-stone-900 pb-6 md:pb-0 grid grid-cols-4 row-span-6 md:row-span-7 gap-0.125 sm:gap-0.5 ">
+        <div className="bg-black md:bg-stone-900 pb-10 md:pb-0 grid grid-cols-4 row-span-7 gap-0.125 sm:gap-0.5 ">
           {btnFn.map((btn) => (
             <Button
               key={btn}
               className={`
-              ${isOperator(btn) && 'text-orange-500'}
+              ${isOperator(btn) && 'text-orange-400'}
               `}
               onClick={buttonChangeHandler}
             >
