@@ -108,7 +108,7 @@ const Calculator = () => {
               }}
               newCalc={equalsPrevClicked || newCalc}
               isAC={isAC}
-              show={3}
+              show={2}
             />
             <span
               className={`${

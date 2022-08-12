@@ -1,5 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  purge: {
+    safelist: [
+      'text-orange-500',
+      'bg-orange-500',
+      'text-orange-400',
+    ],
+  },
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
     './pages/**/*.{js,jsx,ts,tsx}',
