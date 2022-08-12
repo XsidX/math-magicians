@@ -6,7 +6,7 @@ import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 const Header = () => (
   <header className="h-14 px-3 md:w-3/4 absolute top-0 left-0 right-0 z-50 flex items-center md:gap-5 text-stone-400 text-lg font-medium">
     <nav className="w-full">
-      <ul className="flex items-center gap-5 text-stone-500 justify-between md:justify-start">
+      <ul className="flex items-center gap-5 text-stone-500 justify-between md:justify-start prevent-select">
         <li>
           <NavLink
             className={(navData) => (navData.isActive ? 'text-orange-500 md:pb-1 md:border-b border-orange-400 md:text-stone-400 transition duration-150 ease-in' : '')}

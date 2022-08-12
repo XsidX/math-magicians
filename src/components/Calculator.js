@@ -135,7 +135,7 @@ const Calculator = () => {
             <Button
               key={btn}
               className={`
-              ${isOperator(btn) && 'text-orange-400'}
+              ${isOperator(btn) && 'text-orange'}
               `}
               onClick={buttonChangeHandler}
             >
