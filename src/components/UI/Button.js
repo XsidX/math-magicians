@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Button = ({ className, children, onClick }) => (
   <div
-    className={`${className} bg-black md:bg-stone-900 text-gray-200 font-roboto text-3xl flex items-center justify-center cursor-pointer`}
+    className={`${className} bg-black md:bg-stone-900 text-gray-200 font-roboto text-3xl md:text-2xl flex items-center justify-center cursor-pointer`}
     onClick={onClick}
     onKeyPress={onClick}
     role="button"
