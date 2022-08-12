@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home';
 import Calculator from './pages/Calculator';
@@ -13,6 +13,7 @@ const App = () => (
       <Route path="/calculator" element={<Calculator />} />
       <Route path="/quote" element={<Quote />} />
       <Route path="/history" element={<History />} />
+      <Route path="/" element={<Navigate to="/home" replace />} />
     </Routes>
   </Layout>
 );
