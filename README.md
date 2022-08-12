@@ -10,8 +10,10 @@
 ## Built With
 
 - React(Create React App)
+- Tailwindcss
 
 ## Live Demo
+[Here](https://math-magicians-sid.netlify.app/home) is a link to the live demo
 
 ## Getting Started
 
