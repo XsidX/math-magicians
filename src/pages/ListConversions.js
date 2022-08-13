@@ -7,7 +7,7 @@ const ListConversions = () => {
 
   return (
     <div className="px-3 ">
-      <ul className="grid grid-cols-3 gap-y-14">
+      <ul className="grid grid-cols-3 gap-y-10">
         {CONVERSIONSDATA.map((conversion) => (
           <li key={conversion.name}>
             <ConversionItem conversion={conversion} />
