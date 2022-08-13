@@ -33,10 +33,10 @@ const ConversionItem = ({ conversion }) => {
   return (
     <button
       type="button"
-      className="text-stone-500 flex flex-col justify-center items-center gap-y-5 w-full py-4"
+      className="text-stone-500 flex flex-col justify-center items-center gap-y-4 w-full py-4"
     >
-      <FontAwesomeIcon icon={iconType} className="text-stone-300 text-2xl" />
-      <h2 className="font-roboto">{name}</h2>
+      <FontAwesomeIcon icon={iconType} className="text-stone-300" />
+      <h2 className="font-roboto text-sm">{name}</h2>
     </button>
   );
 };
