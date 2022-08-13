@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home';
 import Calculator from './pages/Calculator';
-import Quote from './pages/Quote';
+import ListConversions from './pages/ListConversions';
 import History from './pages/History';
 
 const App = () => (
@@ -11,7 +11,7 @@ const App = () => (
     <Routes>
       <Route path="/home" element={<Home />} />
       <Route path="/calculator" element={<Calculator />} />
-      <Route path="/quote" element={<Quote />} />
+      <Route path="/all-conversions" element={<ListConversions />} />
       <Route path="/history" element={<History />} />
       <Route path="/" element={<Navigate to="/home" replace />} />
     </Routes>

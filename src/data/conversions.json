@@ -1,0 +1,320 @@
+[
+  {
+    "name": "Area",
+    "icon": "shapes",
+    "conversions": [
+      {
+        "name": "Square Meters",
+        "abbreviation": "m²",
+        "conversions": [
+          {
+            "name": "Square Centimeters",
+            "abbreviation": "cm²",
+            "factor": 0.0001
+          },
+          {
+            "name": "Square Kilometers",
+            "abbreviation": "km²",
+            "factor": 0.000001
+          },
+          {
+            "name": "Square Miles",
+            "abbreviation": "mi²",
+            "factor": 3.86e-7
+          },
+          {
+            "name": "Square Feet",
+            "abbreviation": "ft²",
+            "factor": 0.092903
+          },
+          {
+            "name": "Square Inches",
+            "abbreviation": "in²",
+            "factor": 0.00064516
+          },
+          {
+            "name": "Square Yards",
+            "abbreviation": "yd²",
+            "factor": 0.836127
+          },
+          {
+            "name": "Square Nautical Miles",
+            "abbreviation": "nmi²",
+            "factor": 3.86e-7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mass",
+    "icon": "scaleBalanced",
+    "conversions": [
+      {
+        "name": "Kilograms",
+        "abbreviation": "kg",
+        "conversions": [
+          {
+            "name": "Grams",
+            "abbreviation": "g",
+            "factor": 1000
+          },
+          {
+            "name": "Pounds",
+            "abbreviation": "lb",
+            "factor": 2.20462
+          },
+          {
+            "name": "Ounces",
+            "abbreviation": "oz",
+            "factor": 35.274
+          },
+          {
+            "name": "Stone",
+            "abbreviation": "st",
+            "factor": 0.157473
+          },
+          {
+            "name": "Short Tons",
+            "abbreviation": "t",
+            "factor": 0.0005
+          },
+          {
+            "name": "Long Tons",
+            "abbreviation": "t",
+            "factor": 0.001
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Length",
+    "icon": "rulerHorizontal",
+    "conversions": [
+      {
+        "name": "Meters",
+        "abbreviation": "m",
+        "conversions": [
+          {
+            "name": "Centimeters",
+            "abbreviation": "cm",
+            "factor": 0.01
+          },
+          {
+            "name": "Kilometers",
+            "abbreviation": "km",
+            "factor": 0.001
+          },
+          {
+            "name": "Miles",
+            "abbreviation": "mi",
+            "factor": 0.000621371
+          },
+          {
+            "name": "Feet",
+            "abbreviation": "ft",
+            "factor": 0.3048
+          },
+          {
+            "name": "Inches",
+            "abbreviation": "in",
+            "factor": 0.0254
+          },
+          {
+            "name": "Yards",
+            "abbreviation": "yd",
+            "factor": 0.9144
+          },
+          {
+            "name": "Nautical Miles",
+            "abbreviation": "nmi",
+            "factor": 0.000539957
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Volume",
+    "icon": "cube",
+    "conversions": [
+      {
+        "name": "Cubic Meters",
+        "abbreviation": "m³",
+        "conversions": [
+          {
+            "name": "Cubic Centimeters",
+            "abbreviation": "cm³",
+            "factor": 0.001
+          },
+          {
+            "name": "Cubic Kilometers",
+            "abbreviation": "km³",
+            "factor": 0.000001
+          },
+          {
+            "name": "Cubic Miles",
+            "abbreviation": "mi³",
+            "factor": 3.78541178e-8
+          },
+          {
+            "name": "Cubic Feet",
+            "abbreviation": "ft³",
+            "factor": 0.0283168
+          },
+          {
+            "name": "Cubic Inches",
+            "abbreviation": "in³",
+            "factor": 0.000016387
+          },
+          {
+            "name": "Cubic Yards",
+            "abbreviation": "yd³",
+            "factor": 0.7645548
+          },
+          {
+            "name": "Cubic Nautical Miles",
+            "abbreviation": "nmi³",
+            "factor": 3.78541178e-8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Temperature",
+    "icon": "temperatureHalf",
+    "conversions": [
+      {
+        "name": "Kelvin",
+        "abbreviation": "K",
+        "conversions": [
+          {
+            "name": "Celsius",
+            "abbreviation": "°C",
+            "factor": -273.15
+          },
+          {
+            "name": "Fahrenheit",
+            "abbreviation": "°F",
+            "factor": -459.67
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Speed",
+    "icon": "gaugeSimple",
+    "conversions": [
+      {
+        "name": "Meters per second",
+        "abbreviation": "m/s",
+        "conversions": [
+          {
+            "name": "Kilometers per hour",
+            "abbreviation": "km/h",
+            "factor": 0.277778
+          },
+          {
+            "name": "Miles per hour",
+            "abbreviation": "mph",
+            "factor": 0.44704
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Time",
+    "icon": "clock",
+    "conversions": [
+      {
+        "name": "Seconds",
+        "abbreviation": "s",
+        "conversions": [
+          {
+            "name": "Minutes",
+            "abbreviation": "min",
+            "factor": 0.0166667
+          },
+          {
+            "name": "Hours",
+            "abbreviation": "h",
+            "factor": 0.000277778
+          },
+          {
+            "name": "Days",
+            "abbreviation": "d",
+            "factor": 0.0000115741
+          },
+          {
+            "name": "Weeks",
+            "abbreviation": "w",
+            "factor": 0.00000191781
+          },
+          {
+            "name": "Years",
+            "abbreviation": "y",
+            "factor": 0.000000000316
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Discount",
+    "icon": "tag",
+    "conversions": []
+  },
+  {
+    "name": "BMI",
+    "icon": "stethoscope",
+    "conversions": []
+  },
+  {
+    "name": "Data",
+    "icon": "wifi",
+    "conversions": [
+      {
+        "name": "Bytes",
+        "abbreviation": "B",
+        "conversions": [
+          {
+            "name": "Kilobytes",
+            "abbreviation": "kB",
+            "factor": 0.001
+          },
+          {
+            "name": "Megabytes",
+            "abbreviation": "MB",
+            "factor": 0.000001
+          },
+          {
+            "name": "Gigabytes",
+            "abbreviation": "GB",
+            "factor": 0.000000001
+          },
+          {
+            "name": "Terabytes",
+            "abbreviation": "TB",
+            "factor": 0.000000000001
+          },
+          {
+            "name": "Petabytes",
+            "abbreviation": "PB",
+            "factor": 0.0000000000000001
+          },
+          {
+            "name": "Exabytes",
+            "abbreviation": "EB",
+            "factor": 0.00000000000000000001
+          }
+        ]
+      }
+    ]
+ }
+]
+
+
