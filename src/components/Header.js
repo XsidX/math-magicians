@@ -9,7 +9,9 @@ const Header = () => (
       <ul className="flex items-center gap-5 text-stone-500 justify-between md:justify-start prevent-select">
         <li>
           <NavLink
-            className={(navData) => (navData.isActive ? 'text-orange-500 md:pb-1 md:border-b border-orange-400 md:text-stone-400 transition duration-150 ease-in' : '')}
+            className={(navData) => (navData.isActive
+              ? 'text-orange-500 md:pb-1 md:border-b border-orange-400 md:text-stone-400 transition duration-150 ease-in'
+              : '')}
             to="home"
           >
             <FontAwesomeIcon icon={solid('house')} className="md:hidden" />
@@ -18,7 +20,9 @@ const Header = () => (
         </li>
         <li>
           <NavLink
-            className={(navData) => (navData.isActive ? 'text-orange-500 md:pb-1 md:border-b border-orange-500 md:text-stone-400 transition duration-150 ease-in' : '')}
+            className={(navData) => (navData.isActive
+              ? 'text-orange-500 md:pb-1 md:border-b border-orange-500 md:text-stone-400 transition duration-150 ease-in'
+              : '')}
             to="/calculator"
           >
             <FontAwesomeIcon icon={solid('equals')} className="md:hidden" />
@@ -27,10 +31,12 @@ const Header = () => (
         </li>
         <li>
           <NavLink
-            className={(navData) => (navData.isActive ? 'text-orange-500 md:pb-1 md:border-b border-orange-500 md:text-stone-400 transition duration-150 ease-in' : '')}
-            to="/quote"
+            className={(navData) => (navData.isActive
+              ? 'text-orange-500 md:pb-1 md:border-b border-orange-500 md:text-stone-400 transition duration-150 ease-in'
+              : '')}
+            to="/all-conversions"
           >
-            <FontAwesomeIcon icon={solid('quote-left')} className="md:hidden" />
+            <FontAwesomeIcon icon={solid('qrcode')} className="md:hidden" />
             <h2 className="hidden md:inline">Quote</h2>
           </NavLink>
         </li>

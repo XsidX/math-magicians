@@ -5,7 +5,7 @@ import Header from '../Header';
 const Layout = ({ children }) => (
   <div className="bg-black h-screen relative overflow-y-hidden">
     <Header />
-    {children}
+    <div className="my-14 h-[calc(100vh_-_56px)] pt-10">{children}</div>
   </div>
 );
 
