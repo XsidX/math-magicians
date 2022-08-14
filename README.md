@@ -4,13 +4,15 @@
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-- Make simple calculations.
-- Read a random math-related quote.
+- Make simple arithmetic calculations(+, -, /, *).
+- Preview a history of the recently executed calculations. 
+- Make a number of mathematical conversions(Area, Mass, Length, Volume, Temperature, Speed, Time, Discount, BMI, Data).
 
 ## Built With
 
 - React(Create React App)
 - Tailwindcss
+- Framer Motion
 
 ## Live Demo
 [Here](https://math-magicians-sid.netlify.app/home) is a link to the live demo
@@ -19,9 +21,9 @@
 
 ## Prerequisites
 
--JavaScript
--React
--HTML, CSS
+- React
+- Tailwindcss
+- Framer Motion
 
 ## Install
 
@@ -56,7 +58,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Authors
+## Author
 
 👤 **Sidney**
 
@@ -75,8 +77,9 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
--Microverse module 2, block 4, Leaderboard:... activity/lesson.
+The design of the app was inspired by the calculator apps in:
+  - MIUI 13 (android-based mobile operating system).
+  - Windows 10.
 
 ## 📝 License
 
