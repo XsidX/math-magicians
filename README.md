@@ -8,6 +8,10 @@
 - Preview a history of the recently executed calculations. 
 - Make a number of mathematical conversions(Area, Mass, Length, Volume, Temperature, Speed, Time, Discount, BMI, Data).
 
+## Project snapshot
+
+# [![sidney kaguli header](https://github.com/XsidX/math-magicians/blob/dev/math-magicians-desk%26mobile.png)](https://math-magicians-sid.netlify.app/calculator)
+
 ## Built With
 
 - React(Create React App)
