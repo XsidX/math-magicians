@@ -130,7 +130,7 @@ const Calculator = () => {
             </span>
           </div>
         </div>
-        <div className="bg-black md:bg-stone-900 pb-10 md:pb-0 grid grid-cols-4 row-span-7 gap-0.125 sm:gap-0.5 ">
+        <div className="bg-black md:bg-stone-900 grid grid-cols-4 row-span-7 gap-0.125 sm:gap-0.5 ">
           {btnFn.map((btn) => (
             <Button
               key={btn}
